@@ -7,8 +7,8 @@ module.exports = function(grunt) {
         banner: '/*! <%= grunt.template.today("yyyy-mm-dd") %> */\n'
       },
       build: {
-        src: '**/*.js',
-        dest: 'build/all.min.js'
+        src: 'Listener.js',
+        dest: 'Listener.min.js'
       }
     }
   });
